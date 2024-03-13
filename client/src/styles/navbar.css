@@ -1,0 +1,49 @@
+
+.navbar{
+    position: fixed;
+    /* if we write width after position :fixed then we can use flex properties also;  */
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    
+}
+.navbar:hover{
+    transition: all 1s ease-in-out;
+    background-color:#028bfc62;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.logo-link,.link-styling{
+    padding: 7px;
+
+}
+/* link */
+.navbar-container{
+    display: flex;
+    align-items: center;
+    float: right;
+    
+}
+.get-started{
+    border-radius: 25px;
+    background-color: #252a6f;
+    cursor:pointer;
+    padding: 14px;
+    color: aliceblue;
+
+}
+.get-started:hover{
+    background-color: white;
+    color:#252a6f
+}
+
+a{
+    text-decoration: none;
+    color:white
+}
